@@ -1,0 +1,5 @@
+category: Gnome
+sdesc: "GLib2-based MIME parser library (source)"
+ldesc: "The GMime suite provides a core library and set of utilities which may
+be used for the creation and parsing of messages using the Multipurpose
+Internet Mail Extension (MIME)."
