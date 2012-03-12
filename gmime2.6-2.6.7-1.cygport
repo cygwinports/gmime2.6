@@ -12,7 +12,6 @@ PKG_NAMES="lib${PN}_0 lib${PN}-devel mono-gmime-sharp2.6"
 libgmime2_6_0_CONTENTS="usr/bin/cyggmime-2.6-0.dll usr/share/doc/"
 libgmime2_6_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/gmime-2.6.pc
                  usr/share/gtk-doc/"
-mono_gmime_sharp2_6_CONTENTS="usr/lib/mono/ usr/lib/pkgconfig/gmime-sharp-2.6.pc"
-PKG_IGNORE="usr/bin/gmime-uu*.exe"
+mono_gmime_sharp2_6_CONTENTS="usr/lib/mono/ usr/lib/pkgconfig/gmime-sharp-2.6.pc usr/share/gapi-2.0/"
 
 DIFF_EXCLUDES="*.types"
