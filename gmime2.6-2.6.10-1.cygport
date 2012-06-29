@@ -15,3 +15,5 @@ libgmime2_6_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/gmime-2.
 mono_gmime_sharp2_6_CONTENTS="usr/lib/mono/ usr/lib/pkgconfig/gmime-sharp-2.6.pc usr/share/gapi-2.0/"
 
 DIFF_EXCLUDES="*.types"
+
+KEEP_LA_FILES="none"
