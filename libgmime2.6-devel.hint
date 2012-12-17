@@ -1,7 +1,0 @@
-category: Gnome
-requires: libgmime2.6_0 libglib2.0-devel libgpgme-devel libiconv zlib-devel
-external-source: gmime2.6
-sdesc: "GLib2-based MIME parser library (development)"
-ldesc: "The GMime suite provides a core library and set of utilities which may
-be used for the creation and parsing of messages using the Multipurpose
-Internet Mail Extension (MIME)."

@@ -1,7 +1,0 @@
-category: Gnome DotNET
-requires: libgmime2.6_0 mono mono-glib-sharp2.0
-external-source: gmime2.6
-sdesc: "GLib2-based MIME parser library (Mono bindings)"
-ldesc: "The GMime suite provides a core library and set of utilities which may
-be used for the creation and parsing of messages using the Multipurpose
-Internet Mail Extension (MIME)."
