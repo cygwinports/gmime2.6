@@ -2,7 +2,7 @@ ORIG_PN="gmime"
 inherit gnome2
 
 NAME="gmime2.6"
-VERSION=2.6.13
+VERSION=2.6.15
 RELEASE=1
 CATEGORY="GNOME"
 SUMMARY="GObject MIME parser library (source)"
@@ -23,3 +23,5 @@ libgmime2_6_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/gmime-2.
 mono_gmime_sharp2_6_CONTENTS="usr/lib/mono/ usr/lib/pkgconfig/gmime-sharp-2.6.pc usr/share/gapi-2.0/"
 
 DIFF_EXCLUDES="*.types"
+
+WANT_AUTOMAKE=1.12
