@@ -2,10 +2,10 @@ ORIG_PN="gmime"
 inherit gnome2
 
 NAME="gmime2.6"
-VERSION=2.6.16
+VERSION=2.6.17
 RELEASE=1
-CATEGORY="GNOME"
-SUMMARY="GObject MIME parser library (source)"
+CATEGORY="Libs"
+SUMMARY="GObject MIME parser library"
 DESCRIPTION="The GMime suite provides a core library and set of utilities which
 may be used for the creation and parsing of messages using the Multipurpose
 Internet Mail Extension (MIME)."
