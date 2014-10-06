@@ -16,13 +16,14 @@ PATCH_URI="
 	2.6.0-dllmap-cygwin.patch
 "
 
-PKG_NAMES="lib${NAME}_0 lib${NAME}-devel lib${NAME}-doc girepository-GMime2.6 vala-gmime2.6 ${ARCH_i686+mono-gmime-sharp2.6}"
+PKG_NAMES="lib${NAME}_0 lib${NAME}-devel lib${NAME}-doc girepository-GMime2.6 vala-gmime2.6"
 libgmime2_6_0_CONTENTS="usr/bin/cyggmime-2.6-0.dll usr/share/doc/"
 libgmime2_6_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/gmime-2.6.pc"
 libgmime2_6_doc_CATEGORY="Doc"
 libgmime2_6_doc_CONTENTS="usr/share/gtk-doc/"
 girepository_GMime2_6_CONTENTS="usr/*/gir*/GMime-2.6.*"
 vala_gmime2_6_CONTENTS="usr/share/vala/vapi/gmime-2.6.*"
-mono_gmime_sharp2_6_CONTENTS="usr/lib/mono/ usr/lib/pkgconfig/gmime-sharp-2.6.pc usr/share/gapi-2.0/"
 
 DIFF_EXCLUDES="*.types"
+
+CYGCONF_ARGS="--disable-mono"
