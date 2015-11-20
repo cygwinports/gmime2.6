@@ -3,7 +3,7 @@ inherit gnome2
 
 NAME="gmime2.6"
 VERSION=2.6.20
-RELEASE=1
+RELEASE=2
 CATEGORY="Libs"
 SUMMARY="GObject MIME parser library"
 DESCRIPTION="The GMime suite provides a core library and set of utilities which
