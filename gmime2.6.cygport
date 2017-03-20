@@ -2,7 +2,7 @@ ORIG_PN="gmime"
 inherit gnome2
 
 NAME="gmime2.6"
-VERSION=2.6.20
+VERSION=2.6.23
 RELEASE=2
 CATEGORY="Libs"
 SUMMARY="GObject MIME parser library"
@@ -12,7 +12,6 @@ Internet Mail Extension (MIME)."
 
 PATCH_URI="
 	2.6.0-cygwin.patch
-	2.6.0-libiconv.patch
 	2.6.0-dllmap-cygwin.patch
 "
 
